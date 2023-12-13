@@ -25,3 +25,9 @@ input[type="text"] {
     margin: 8px 0;
     box-sizing: border-box;
 }
+.img {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8px;
+
+}
